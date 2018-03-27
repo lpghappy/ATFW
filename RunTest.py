@@ -1,4 +1,8 @@
 
+# import testsuites
+# from testsuites.test_baidu_search import BaiduSearch
+# from testsuites.test_get_page_title import GetPageTitle
+
 import sys
 import os
 curPath = os.path.abspath(os.path.dirname(__file__))
