@@ -1,6 +1,0 @@
-[BrowserEngine]-[2018-03-27 13:34:25,619]-[INFO]-[You had select Chrome browser.]
-[BrowserEngine]-[2018-03-27 13:34:25,620]-[INFO]-[The test server url is:https://www.baidu.com]
-[BrowserEngine]-[2018-03-27 13:34:30,857]-[INFO]-[Starting Chrome browser.]
-[BrowserEngine]-[2018-03-27 13:34:34,794]-[INFO]-[Maximize the current window.]
-[BrowserEngine]-[2018-03-27 13:34:34,795]-[INFO]-[Set implicitly wait 10 seconds.]
-[TestNBANewsView]-[2018-03-27 13:34:34,795]-[INFO]-[test_view_nba_views is starting...]

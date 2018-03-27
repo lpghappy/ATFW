@@ -28,12 +28,12 @@ class BaiduSearch(unittest.TestCase):
         logger.info("Now, Close and quit the browser.")
         cls.driver.quit()
 
-    def test_baidu_search(self):
+    def test_baidu_search1(self):
         """
         这里一定要test开头，把测试逻辑代码封装到一个test开头的方法里。
         :return:
         """
-        logger.info("test_baidu_search starting...")
+        logger.info("test_baidu_search1 starting...")
         homepage = HomePage(self.driver)
         homepage.type_search("selenium")#调用页面对象中的方法
         homepage.search_submit_btn()#调用页面对象类中的点击搜索按钮方法
@@ -44,7 +44,7 @@ class BaiduSearch(unittest.TestCase):
             logger.info("Test Pass.")
         except Exception as e:
             logger.info("Test Fail.", format(e))
-        logger.info("test_baidu_search end.")
+        logger.info("test_baidu_search1 end.")
 
     def test_baidu_search2(self):
         """
@@ -64,5 +64,5 @@ class BaiduSearch(unittest.TestCase):
             logger.info("Test Fail.", format(e))
         logger.info("test_baidu_search2 end.")
 
-if __name__ == "__main__":
-    unittest.main()
+# if __name__ == "__main__":
+#     unittest.main()

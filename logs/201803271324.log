@@ -1,7 +1,0 @@
-[BrowserEngine]-[2018-03-27 13:24:27,312]-[INFO]-[You had select Chrome browser.]
-[BrowserEngine]-[2018-03-27 13:24:27,313]-[INFO]-[The test server url is:https://www.baidu.com]
-[BrowserEngine]-[2018-03-27 13:24:32,282]-[INFO]-[Starting Chrome browser.]
-[BrowserEngine]-[2018-03-27 13:24:42,497]-[INFO]-[Maximize the current window.]
-[BrowserEngine]-[2018-03-27 13:24:42,500]-[INFO]-[Set implicitly wait 10 seconds.]
-[TestNBANewsView]-[2018-03-27 13:24:42,530]-[INFO]-[test_view_nba_views is starting...]
-[BasePage]-[2018-03-27 13:24:42,569]-[INFO]-[Had find the element ' ÐÂÎÅ ' successful by xpath via value: //*[@id='u1']/a[1] ]

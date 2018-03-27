@@ -9,12 +9,14 @@ from framework.logger import Logger
 logger = Logger(logger="TestNBANewsView").getlog()
 
 class ViewNBANews(unittest.TestCase):
-    def setUp(self):
-        browse = BrowserEngine(self)
-        self.driver = browse.open_browser(self)
+    @classmethod
+    def setUpClass(cls):
+        browse = BrowserEngine(cls)
+        cls.driver = browse.open_browser(cls)
 
-    def tearDown(self):
-        self.driver.quit()
+    @classmethod
+    def tearDownClass(cls):
+        cls.driver.quit()
 
     def test_view_nba_views(self):
 
@@ -42,5 +44,5 @@ class ViewNBANews(unittest.TestCase):
         logger.info("test_view_nba_views is end.")
 
 
-if __name__ == '__main__':
-    unittest.main()
+# if __name__ == '__main__':
+#     unittest.main()
